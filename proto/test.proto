@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "/proto";
+
+package proto;
+
+message SearchRequest {
+  string query = 1;
+  int32 pos_x = 2;
+  int32 pos_y = 3;
+}
