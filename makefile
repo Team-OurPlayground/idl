@@ -1,2 +1,2 @@
-proto-test:
-	protoc --go_out=. --go_opt=paths=source_relative proto/test.proto
+proto-message:
+	protoc --go_out=. proto/message.proto
