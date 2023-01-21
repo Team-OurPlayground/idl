@@ -1,10 +1,10 @@
 syntax = "proto3";
 
-option go_package = "/proto";
+option go_package = "./goproto";
 
 package proto;
 
-message SearchRequest {
+message Message {
   string query = 1;
   int32 pos_x = 2;
   int32 pos_y = 3;
