@@ -1,2 +1,2 @@
-proto-message:
-	protoc --go_out=. proto/message.proto
+proto-data:
+	protoc --go_out=. proto/data.proto
