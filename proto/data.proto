@@ -6,6 +6,6 @@ package proto;
 
 message data {
   string query = 1;
-  int32 pos_x = 2;
-  int32 pos_y = 3;
+  float pos_x = 2;
+  float pos_y = 3;
 }
