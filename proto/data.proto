@@ -5,7 +5,8 @@ option go_package = "./goproto";
 package proto;
 
 message data {
-  string query = 1;
-  float pos_x = 2;
-  float pos_y = 3;
+  string function = 1;
+  string data = 2;
+  float dx = 3;
+  float dy = 4;
 }
