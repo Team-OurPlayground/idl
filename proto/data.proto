@@ -10,3 +10,8 @@ message data {
   float dx = 3;
   float dy = 4;
 }
+
+message authenticate {
+  string id = 1;
+  string token = 2;
+}
