@@ -12,6 +12,6 @@ message data {
 }
 
 message authenticate {
-  string id = 1;
-  string token = 2;
+  string id = 5;
+  string token = 6;
 }
