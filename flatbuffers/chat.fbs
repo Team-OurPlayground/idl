@@ -1,0 +1,12 @@
+namespace FBPacket;
+
+enum ChatType : byte{CHAT = 0, WHISPER = 1,SYSTEM = 2}
+
+table ChatMessage {
+  message:string;
+  sender:string;
+  receiver:string;
+  type:ChatType;
+}
+
+root_type ChatMessage;
